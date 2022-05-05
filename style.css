@@ -1,0 +1,20 @@
+h1 { font-family: "Andale Mono", AndaleMono, monospace; font-size: 20px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 20px; } h3 { font-family: "Andale Mono", AndaleMono, monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: "Andale Mono", AndaleMono, monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 14px; } blockquote { font-family: "Andale Mono", AndaleMono, monospace; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: "Andale Mono", AndaleMono, monospace; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
+
+html {
+   min-height: 100%;
+   background-image: url(background.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+}
+
+.textstyle {
+    background-color: gray; /* Changing background color */
+    font-weight: bold; /* Making font bold */
+    border-radius: 10px; /* Making border radius */
+    width: auto; /* Making auto-sizable width */
+    height: auto; /* Making auto-sizable height */
+    padding: 5px 30px 5px 30px; /* Making space around letters */
+    font-size: 18px; /* Changing font size */
+}
+
